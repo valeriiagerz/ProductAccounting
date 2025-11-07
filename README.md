@@ -5,7 +5,7 @@
 ## Технологии
 
 ### Backend
-- Node.js 18+
+- Node.js 18
 - TypeORM
 - PostgreSQL
 - Express
