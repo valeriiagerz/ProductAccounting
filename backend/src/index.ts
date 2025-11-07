@@ -26,7 +26,6 @@ AppDataSource.initialize()
   .then(async () => {
     console.log('Database connected successfully');
     
-    // Seed test data if database is empty
     const productRepository = AppDataSource.getRepository(Product);
     const count = await productRepository.count();
     if (count === 0) {
